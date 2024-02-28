@@ -1,2 +1,5 @@
 <?php
-echo "Hello, World";
+require 'Credential.php';
+
+
+// $user_id = $_POST

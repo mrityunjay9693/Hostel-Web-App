@@ -8,7 +8,7 @@
 <body>
     <div>
         <form action="Authenticate.php" method="POST"> <!--Here, we have to submit data to php -->
-            <input type="text" name="userid" id="userid" placeholder="User Id">
+            <input type="text" name="user_id" id="user_id" placeholder="User Id">
             <input type="password" name="password" id="password" placeholder="Password">
             <button>Login</button>
             <label name="error_message" id="error_message"></label>

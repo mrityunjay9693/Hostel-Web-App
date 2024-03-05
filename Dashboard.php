@@ -1,3 +1,10 @@
+<!-- <?php 
+    require 'Utility.php';
+    if(!isset($_SESSION['user_id'])){
+        utility::js_alert("Invalid session");
+        header('Location:index.php');
+    }
+?> -->
 <!DOCTYPE html>
 <html lang="en">
 <head>

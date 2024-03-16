@@ -2,9 +2,9 @@
 
 class utility
 {
-    static function js_redirect($url)
+    static function js_redirect($a)
     {
-        echo "<script>window.locaion.href = '$url'</script>";
+        echo "<script>window.location.href = '$a'</script>";
     }
 
     static function js_alert($message)

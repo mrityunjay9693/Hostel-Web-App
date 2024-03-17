@@ -19,9 +19,9 @@ $stmt->execute();
 $result = $stmt->get_result();
 echo "Hello";
 if ($result->num_rows > 0) {
-    //$row = $result->fetch_assoc();
-    // session_start();
-    // $_SESSION['user_id'] = $user_id;
+    $row = $result->fetch_assoc();
+    session_start();
+    $_SESSION['user_id'] = $user_id;
     //header('Location: Dashboard.php');
     //echo "Hello in";
     utility::js_redirect("Dashboard.php");

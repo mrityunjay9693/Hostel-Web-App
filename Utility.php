@@ -10,5 +10,5 @@ class utility
     static function js_alert($message)
     {
         echo "<script>alert('$message')</script>";
-    }
+    }   
 }

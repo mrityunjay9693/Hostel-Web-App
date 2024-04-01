@@ -14,10 +14,12 @@ $user_id = $_SESSION['user_id'];
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
+    <h1>Dashboard</h1>
     <div>Welcome to Hostel Dashboard</div>
     <h3>Hello Everyones! <br><?= $user_id ?></h3> <!-- <?= $user_id ?> : Short hand notation. It makes code simple and clean -->
     <p><a href="Logout.php">Logout</a></p>

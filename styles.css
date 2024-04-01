@@ -1,8 +1,40 @@
-h1 {
-    color: blue;
-    text-align: center;
+/* ************** Common ************** */
+.logo-type-1 {
+  width: 100px;
+  border: 1px solid #3366ff;
+  margin: 10px;
+}
+
+.form-control {
+  padding: 5px;
+  margin: 5px;
+}
+
+.form-control-block {
+  display: block;
+  padding: 10px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  border: 1 solid #3366FF;
 }
 
 .log-in {
-    text-align: center;
+  text-align: center;
+}
+
+.submit{
+    background-color: #3366FF;
+    color: white;
+}
+
+/* ************** Specific to login  ************** */
+
+.container {
+  width: 400px;
+  height: 400px;
+  background-color: #eeeeee;
+  border: 1px solid #3366ff;
+  padding-top: 100px;
+  margin: 0 auto; /* To let div in the center*/
+  margin-top: 50px;
 }

@@ -1,4 +1,14 @@
 /* ************** Common ************** */
+body {
+  margin: 0;
+}
+
+.logo-type-basic {
+  width: 100px;
+  border: 1px solid #3366ff;
+  margin: 0;
+}
+
 .logo-type-1 {
   width: 100px;
   border: 1px solid #3366ff;
@@ -15,16 +25,16 @@
   padding: 10px;
   margin: 0 auto;
   margin-bottom: 20px;
-  border: 1 solid #3366FF;
+  border: 1 solid #3366ff;
 }
 
 .log-in {
   text-align: center;
 }
 
-.submit{
-    background-color: #3366FF;
-    color: white;
+.submit {
+  background-color: #3366ff;
+  color: white;
 }
 
 /* ************** Specific to login  ************** */
@@ -37,4 +47,29 @@
   padding-top: 100px;
   margin: 0 auto; /* To let div in the center*/
   margin-top: 50px;
+}
+
+/* ********************* Layout CSS ********************* */
+.header {
+  background-color: #ccccff !important;
+}
+
+.title {
+  font-size: 24pt;
+  font-weight: bold !important;
+  color: blueviolet;
+}
+
+.navbar {
+  background-color: #6666cc;
+  color: white;
+}
+
+.main-container {
+}
+
+.footer {
+  background-color: #6666cc;
+  color: #ffffff;
+  text-align: center;
 }

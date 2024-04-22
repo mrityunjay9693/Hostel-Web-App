@@ -73,3 +73,13 @@ body {
   color: #ffffff;
   text-align: center;
 }
+
+/* ********************* Menu CSS ********************* */
+
+a {
+  text-decoration: none;
+  color: white;
+}
+ul {
+  list-style: none;
+}

@@ -68,18 +68,32 @@ body {
 .main-container {
 }
 
-.footer {
-  background-color: #6666cc;
+.footer {    /** this class can be used with any element. */
+  background-color: #6666CC;
   color: #ffffff;
   text-align: center;
 }
 
 /* ********************* Menu CSS ********************* */
 
-a {
+ul.menu li a {
   text-decoration: none;
   color: white;
+  padding: 14px 16px;
+
 }
-ul {
+
+ul.menu li{
+  float : left;
+}
+
+ul{
+  text-decoration: none;
+}
+ul.menu { /** here, the class "menu" cvan only used with ul element. */
   list-style: none;
+  background-color: #6666CC;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; 
 }
